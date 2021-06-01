@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     "chips.apps.ChipsConfig",
     "tailwind",
     "tch2",
+    "core.apps.CoreConfig",
 ]
 
 MIDDLEWARE = [

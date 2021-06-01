@@ -2,6 +2,27 @@
 
 <!-- -->
 
-<!-- -->
+{% block page_title %} HOME {% endblock page_title %}
+    <!-- -->
 
-<!-- -->
+    {% block contents %} 
+
+        <h1>HOME!!!!</h1>
+
+        
+        {% for s in chipList %}
+        <ul>
+            <br>
+            <li>{{s.name}}</li>
+            <li>{{s.peice}}</li>
+            <li>{{s.company}}</li>
+            <br>
+            <hr>
+        </ul>
+            
+        {% endfor %}
+            
+
+    {% endblock contents %}
+
+
